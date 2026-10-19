@@ -251,6 +251,39 @@
       <a name="negate1" val="true"/>
       <a name="size" val="70"/>
     </comp>
+    <comp lib="9" loc="(888,121)" name="Text">
+      <a name="text" val="S : 00 :  IN ENTRY"/>
+    </comp>
+    <comp lib="9" loc="(894,161)" name="Text">
+      <a name="text" val="10 : LOCKED"/>
+    </comp>
+    <comp lib="9" loc="(900,192)" name="Text">
+      <a name="text" val="CLR_EV : Clear Event"/>
+    </comp>
+    <comp lib="9" loc="(901,213)" name="Text">
+      <a name="text" val="ENT_EV : Enter Event"/>
+    </comp>
+    <comp lib="9" loc="(912,140)" name="Text">
+      <a name="text" val="01 : UNCLOCKED"/>
+    </comp>
+    <comp lib="9" loc="(913,373)" name="Text">
+      <a name="text" val="INV_ENT : Invalid Entry"/>
+    </comp>
+    <comp lib="9" loc="(914,353)" name="Text">
+      <a name="text" val="VALID_ENT : Valid entry"/>
+    </comp>
+    <comp lib="9" loc="(918,331)" name="Text">
+      <a name="text" val="INV : Invalid digits (10-15)"/>
+    </comp>
+    <comp lib="9" loc="(925,264)" name="Text">
+      <a name="text" val="EN : Running and not Reset"/>
+    </comp>
+    <comp lib="9" loc="(959,288)" name="Text">
+      <a name="text" val="DO_CLEAR : Clear event and in entry"/>
+    </comp>
+    <comp lib="9" loc="(960,308)" name="Text">
+      <a name="text" val="DO_ENTER : Enter event and in entry"/>
+    </comp>
     <wire from="(140,130)" to="(250,130)"/>
     <wire from="(140,180)" to="(180,180)"/>
     <wire from="(140,220)" to="(200,220)"/>
