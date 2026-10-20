@@ -567,4 +567,95 @@
     <wire from="(560,850)" to="(580,850)"/>
     <wire from="(560,880)" to="(590,880)"/>
   </circuit>
+  <circuit name="PIN_COMPARE">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="PIN_COMPARE"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="128.0"/>
+    <comp lib="0" loc="(140,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="R1"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(140,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="R2"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(140,280)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="R3"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(140,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="DIGIT"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(210,140)" name="Constant">
+      <a name="value" val="0x2"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(210,200)" name="Constant">
+      <a name="value" val="0x4"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(210,260)" name="Constant">
+      <a name="value" val="0x6"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(210,320)" name="Constant">
+      <a name="value" val="0x8"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(510,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="MATCH"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="1" loc="(480,240)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="size" val="70"/>
+    </comp>
+    <comp lib="3" loc="(270,150)" name="Comparator">
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="3" loc="(270,210)" name="Comparator">
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="3" loc="(270,270)" name="Comparator">
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="3" loc="(270,330)" name="Comparator">
+      <a name="width" val="4"/>
+    </comp>
+    <wire from="(140,160)" to="(230,160)"/>
+    <wire from="(140,220)" to="(230,220)"/>
+    <wire from="(140,280)" to="(230,280)"/>
+    <wire from="(140,340)" to="(230,340)"/>
+    <wire from="(210,140)" to="(230,140)"/>
+    <wire from="(210,200)" to="(230,200)"/>
+    <wire from="(210,260)" to="(230,260)"/>
+    <wire from="(210,320)" to="(230,320)"/>
+    <wire from="(270,150)" to="(360,150)"/>
+    <wire from="(270,210)" to="(350,210)"/>
+    <wire from="(270,270)" to="(350,270)"/>
+    <wire from="(270,330)" to="(360,330)"/>
+    <wire from="(350,210)" to="(350,230)"/>
+    <wire from="(350,230)" to="(410,230)"/>
+    <wire from="(350,250)" to="(350,270)"/>
+    <wire from="(350,250)" to="(410,250)"/>
+    <wire from="(360,150)" to="(360,210)"/>
+    <wire from="(360,210)" to="(410,210)"/>
+    <wire from="(360,270)" to="(360,330)"/>
+    <wire from="(360,270)" to="(410,270)"/>
+    <wire from="(480,240)" to="(510,240)"/>
+  </circuit>
+  <circuit name="DIGIT_STORE">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="DIGIT_STORE"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="128.0"/>
+  </circuit>
 </project>
