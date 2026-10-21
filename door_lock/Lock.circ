@@ -813,7 +813,7 @@
     <comp lib="0" loc="(1130,1300)" name="Tunnel">
       <a name="label" val="CLR_STORE"/>
     </comp>
-    <comp lib="0" loc="(230,110)" name="Pin">
+    <comp lib="0" loc="(230,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="VALID_ENT"/>
     </comp>
@@ -825,7 +825,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="CLK"/>
     </comp>
-    <comp lib="0" loc="(250,110)" name="Tunnel">
+    <comp lib="0" loc="(250,120)" name="Tunnel">
       <a name="label" val="VALID_ENT"/>
     </comp>
     <comp lib="0" loc="(250,40)" name="Tunnel">
@@ -894,7 +894,7 @@
       <a name="facing" val="east"/>
       <a name="label" val="CLR_STORE"/>
     </comp>
-    <comp lib="0" loc="(490,110)" name="Pin">
+    <comp lib="0" loc="(490,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="DO_CLEAR"/>
     </comp>
@@ -910,7 +910,7 @@
       <a name="facing" val="east"/>
       <a name="label" val="CLK"/>
     </comp>
-    <comp lib="0" loc="(510,110)" name="Tunnel">
+    <comp lib="0" loc="(510,120)" name="Tunnel">
       <a name="label" val="DO_CLEAR"/>
     </comp>
     <comp lib="0" loc="(510,40)" name="Tunnel">
@@ -1052,6 +1052,15 @@
       <a name="label" val="ATT_REGISTER"/>
       <a name="width" val="2"/>
     </comp>
+    <comp lib="9" loc="(1051,184)" name="Text">
+      <a name="text" val="ATT : Displays the number of attempts"/>
+    </comp>
+    <comp lib="9" loc="(1068,164)" name="Text">
+      <a name="text" val="CNT : Displays the number of digits entered"/>
+    </comp>
+    <comp lib="9" loc="(1107,204)" name="Text">
+      <a name="text" val="FAIL : Gives the immediate feedback after one attempt"/>
+    </comp>
     <wire from="(1070,1270)" to="(1100,1270)"/>
     <wire from="(1100,1270)" to="(1100,1300)"/>
     <wire from="(1100,1270)" to="(1130,1270)"/>
@@ -1065,7 +1074,7 @@
     <wire from="(200,630)" to="(790,630)"/>
     <wire from="(200,750)" to="(200,1080)"/>
     <wire from="(200,750)" to="(670,750)"/>
-    <wire from="(230,110)" to="(250,110)"/>
+    <wire from="(230,120)" to="(250,120)"/>
     <wire from="(230,40)" to="(250,40)"/>
     <wire from="(230,80)" to="(250,80)"/>
     <wire from="(270,1660)" to="(310,1660)"/>
@@ -1091,7 +1100,7 @@
     <wire from="(470,1620)" to="(520,1620)"/>
     <wire from="(470,390)" to="(530,390)"/>
     <wire from="(480,350)" to="(530,350)"/>
-    <wire from="(490,110)" to="(510,110)"/>
+    <wire from="(490,120)" to="(510,120)"/>
     <wire from="(490,1240)" to="(490,1260)"/>
     <wire from="(490,1260)" to="(560,1260)"/>
     <wire from="(490,1280)" to="(490,1300)"/>
@@ -1279,6 +1288,18 @@
     <comp lib="5" loc="(270,210)" name="Register">
       <a name="appearance" val="logisim_evolution"/>
       <a name="width" val="9"/>
+    </comp>
+    <comp lib="9" loc="(918,91)" name="Text">
+      <a name="text" val="IN_UNL : Represents the state of locked / unlocked"/>
+    </comp>
+    <comp lib="9" loc="(930,109)" name="Text">
+      <a name="text" val="TMR : Current time after unlock (master period )"/>
+    </comp>
+    <comp lib="9" loc="(935,145)" name="Text">
+      <a name="text" val="EXPIRE : To expire current session when timer hits 319"/>
+    </comp>
+    <comp lib="9" loc="(941,127)" name="Text">
+      <a name="text" val="TMR_EQ : Gets active when TMR equals master period 319"/>
     </comp>
     <wire from="(120,190)" to="(180,190)"/>
     <wire from="(140,140)" to="(170,140)"/>
