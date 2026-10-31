@@ -893,7 +893,15 @@
       <a name="addrWidth" val="7"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 7 12
-0
+80 a1 240 841 14c 240 941 14d
+240 a41 14e 2e0 16f 240 b41 150
+240 bc1 151 240 c41 152 240 841
+e2 a43 153 2e0 174 240 c41 e2
+943 155 83 a2 a81 116 2e0 177
+83 d02 118 2a0 139 83 d82 11a
+84 a5 c6 e7 802 8a3 11b 13c
+180 1a8 1c4 361 803 6a0 740 53b
+11d 18f 11f f80
 </a>
       <a name="dataWidth" val="12"/>
     </comp>
